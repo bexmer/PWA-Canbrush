@@ -3,34 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #F5F5F7; /* Fondo general más claro */
-  color: #1A1A1A; /* Texto oscuro por defecto */
-  font-family: var(--font-geist-sans); /* Usamos la fuente de Geist */
+  background-color: #FFFFFF;
+  color: #1D1D1F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* Para el fondo radial del hero section */
-.hero-radial-bg {
-  background: radial-gradient(circle at center, rgba(179, 187, 196, 0.2) 0%, rgba(245, 245, 247, 0) 70%);
-}
-
-/* Ajustes de scrollbar para un look más limpio */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #F0F0F0;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #C0C0C0;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #A0A0A0;
 }

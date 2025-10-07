@@ -2,20 +2,18 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata = {
-  title: "Creative Photography Portfolio",
-  description: "A modern portfolio showcasing creative photography with stunning visuals and smooth animations.",
+  title: "Neopa - Creative Portfolio",
+  description: "Contemporary architecture, prime locations, and upscale home design to inspire your next journey.",
   manifest: "/manifest.json",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={GeistSans.className}>
+    <html lang="en" className={GeistSans.variable}>
       <head>
-        <meta name="theme-color" content="#F5F5F7" />
+        <meta name="theme-color" content="#FFFFFF" />
       </head>
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

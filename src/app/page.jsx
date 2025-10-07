@@ -4,7 +4,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// --- Iconos ---
 const ArrowIcon = () => (
   <svg
     width="14"
@@ -38,7 +37,6 @@ const PlusIcon = () => (
   </svg>
 );
 
-// --- Animaciones ---
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
   whileInView: {
