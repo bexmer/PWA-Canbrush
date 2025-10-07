@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+// --- Iconos ---
 const ArrowIcon = () => (
   <svg
     width="14"
@@ -37,6 +38,7 @@ const PlusIcon = () => (
   </svg>
 );
 
+// --- Animaciones ---
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
   whileInView: {
@@ -49,9 +51,9 @@ const fadeIn = {
 
 export default function Home() {
   return (
-    <div className="bg-light-bg">
+    <div className="bg-light-bg flex flex-col items-center">
       <motion.header
-        className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl"
+        className="top-4 fixed justify-center z-50 w-[95%] max-w-4xl"
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
@@ -62,13 +64,16 @@ export default function Home() {
             <a href="#" className="hover:text-white transition-colors">
               About
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a
+              href="#My Portfolio"
+              className="hover:text-white transition-colors"
+            >
               Projects
             </a>
             <a href="#" className="hover:text-white transition-colors">
               Studio
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#Faq" className="hover:text-white transition-colors">
               Contact
             </a>
           </nav>
@@ -86,7 +91,7 @@ export default function Home() {
           transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
         >
           <Image
-            src="/hero-background.jpg"
+            src="/imagen_hero.png"
             alt="Background"
             fill
             className="object-cover"
@@ -95,7 +100,7 @@ export default function Home() {
         </motion.div>
         <div className="absolute inset-0 bg-black/20 z-0"></div>
         <motion.div
-          className="relative z-10"
+          className="relative z-10 flex flex-col gap-20 justify-center items-center"
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
@@ -106,6 +111,9 @@ export default function Home() {
           >
             Professional Creative Photography
           </h1>
+          <button className="bg-cyan-800 text-white text-lg font-semibold px-5 py-2.5 rounded-xl w-[15%] hover:bg-gray-200 transition-colors">
+            Descargar
+          </button>
         </motion.div>
       </section>
 
