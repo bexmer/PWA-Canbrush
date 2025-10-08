@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-pwa",
+    "postbuild": "npx next-pwa",
     "start": "next start",
     "lint": "next lint"
   },
