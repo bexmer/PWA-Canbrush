@@ -1,9 +1,8 @@
 const withPWA = require("next-pwa")({
   dest: "public",
+  disable: process.env.NODE_ENV === "development", // Usamos esta versión, es más estándar
   register: true,
   skipWaiting: true,
-  // La línea clave es esta:
-  disable: !(process.env.NODE_ENV === "production"),
 });
 
 /** @type {import('next').NextConfig} */
