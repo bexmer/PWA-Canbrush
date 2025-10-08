@@ -102,7 +102,7 @@ export default function Home() {
             className="text-5xl md:text-8xl font-bold tracking-tighter leading-none text-white"
             style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
           >
-            CanBrush!
+            CanBush!
           </h1>
           <button className="bg-cyan-800 text-white text-base md:text-lg font-semibold px-6 py-3 rounded-xl w-full max-w-xs md:w-[40%] hover:bg-cyan-700 transition-colors">
             Descargar
