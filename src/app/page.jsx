@@ -258,25 +258,58 @@ export default function Home() {
             <div className="bg-white rounded-4xl p-8 shadow-card">
               <h3 className="font-semibold text-xl">Nuestra visión</h3>
               <p className="text-gray-text mt-2">
-                Convertirnos en un referente dentro del desarrollo de
-                videojuegos independientes en México, impulsando el talento
-                local.
+                Consolidarnos como un equipo referente en el desarrollo de
+                soluciones interactivas basadas en realidad virtual y
+                aplicaciones web progresivas, reconocidos por nuestra capacidad
+                de integrar creatividad, tecnología y metodología ágil.
+                ¡Aspiramos a que CanBush evolucione de un proyecto académico a
+                una plataforma que inspire nuevos modelos de aprendizaje y
+                experiencias digitales inclusivas.
               </p>
             </div>
             <div className="bg-white rounded-4xl p-8 shadow-card">
               <h3 className="font-semibold text-xl">Nuestra misión</h3>
               <p className="text-gray-text mt-2">
-                Desarrollar videojuegos innovadores que desafíen la forma
-                tradicional de jugar, integrando mecánicas únicas de dibujo y
-                estrategia.
+                Desarrollar experiencias inmersivas accesibles que integren
+                videojuegos y tecnologías web progresivas, fomentando la
+                innovación, la colaboración y el aprendizaje aplicado. A través
+                de CanBush, buscamos demostrar cómo la realidad virtual puede
+                combinar entretenimiento, educación y desarrollo técnico dentro
+                de un entorno académico y profesional.
               </p>
             </div>
             <div className="bg-white rounded-4xl p-8 shadow-card lg:col-span-2">
-              <h3 className="font-semibold text-xl">Nuestra esencia</h3>
-              <p id="contact" className="text-gray-text mt-2">
-                Somos Left4Team, un equipo apasionado por la creación de
-                experiencias inmersivas que combinan arte, tecnología y emoción.
-              </p>
+              <h3 className="font-semibold text-xl">Nuestros Valores</h3>
+              <ul>
+                <li className="text-gray-text mt-2">
+                  Innovación: Buscamos constantemente nuevas formas de combinar
+                  VR, PWA y diseño interactivo para ofrecer experiencias únicas.
+                </li>
+                <li className="text-gray-text mt-2">
+                  Colaboración: Valoramos el trabajo en equipo
+                  multidisciplinario como base para alcanzar resultados sólidos
+                  y creativos.
+                </li>
+                <li className="text-gray-text mt-2">
+                  Responsabilidad: Cumplimos con cada fase del proyecto con
+                  compromiso ético, académico y profesional.
+                </li>
+                <li className="text-gray-text mt-2">
+                  Aprendizaje continuo: Promovemos la mejora constante,
+                  aprendiendo de los errores y adaptándonos a los retos
+                  tecnológicos.
+                </li>
+                <li className="text-gray-text mt-2">
+                  Accesibilidad: Creemos en la tecnología como herramienta que
+                  debe estar al alcance de todos, sin barreras técnicas ni
+                  económicas.
+                </li>
+                <li id="contact" className="text-gray-text mt-2">
+                  Integridad: Respetamos la propiedad intelectual, las licencias
+                  de software y los principios de transparencia en cada etapa
+                  del desarrollo.
+                </li>
+              </ul>
             </div>
           </div>
         </motion.section>
